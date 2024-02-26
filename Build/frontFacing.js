@@ -14,9 +14,9 @@ if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
 }
 
 createUnityInstance(document.querySelector("#unity-canvas"), {
-    dataUrl: "Build/Gun Gun Cat.data",
-    frameworkUrl: "Build/Gun Gun Cat.framework.js",
-    codeUrl: "Build/Gun Gun Cat.wasm",
+    dataUrl: "Build/gunGunCat.data",
+    frameworkUrl: "Build/gunGunCat.framework.js",
+    codeUrl: "Build/gunGunCat.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "Gun Gun Cat",
