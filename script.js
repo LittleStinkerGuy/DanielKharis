@@ -78,6 +78,5 @@ function handleKeyDown(event) {
     } else if (event.key == "Backspace" && curLine.length > 0) {
         text.innerHTML = text.innerHTML.slice(0, -1);
         curLine = curLine.slice(0, -1);
-        console.log("hi");
     }
 }
